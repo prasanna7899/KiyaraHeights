@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #0f172a;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background: black;
+}
+
+    .navbar a {
+        color: white;
+        margin-left: 10px;
+    }
+
+.hero {
+    text-align: center;
+    padding: 100px;
+}
+
+.btn {
+    background: blue;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background: #1e293b;
+    padding: 20px;
+}

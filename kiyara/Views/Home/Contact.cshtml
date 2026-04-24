@@ -1,0 +1,14 @@
+<h1>Contact Us</h1>
+
+<form method="post">
+    <input name="Name" placeholder="Name" />
+    <input name="Email" placeholder="Email" />
+    <textarea name="Message"></textarea>
+
+    <button type="submit">Send</button>
+</form>
+
+@if (ViewBag.Message != null)
+{
+    <p>@ViewBag.Message</p>
+}
